@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Pacman</title>
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+
+  <div id="game-over">
+    <h1>Конец игры</h1>
+    <p>Ваш результат: <span id="score-over"></span> очков</p>
+    <button id="play-again">Играть снова</button>
+  </div>
+  <div id="score"></div>
+
+  <script src="app.js"></script>
+  <!-- Utilits -->
+  <script src="utils/Resources.js"></script>
+  <script src="utils/RequestAnimFrame.js"></script>
+  <script src="utils/extend.js"></script>
+  <script src="utils/collision.js"></script>
+  <script src="utils/Canvas.js"></script>
+  <script src="utils/Input.js"></script>
+  <!-- Models -->
+  <script src="models/Game.js"></script>
+  <script src="models/GameObject.js"></script>
+  <script src="models/Pacman.js"></script>
+  <script src="models/Cookie.js"></script>
+  <script src="models/Enemy.js"></script>
+  <!-- View -->
+  <script src="view/gameView.js"></script>
+  <!-- Controller -->
+  <script src="controllers/gameController.js"></script>
+
+</body>
+</html>
